@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14pt;
+	color: #423f3e;
+	font-family: arail;
+}
+body{
+	background-color: #ffffff;
+}
+ul{
+	list-style: none;
+}
+li{
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+em{
+	font-style: normal;
+	height: 100%;
+}
+/*页面总宽*/
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}
+/*内容区*/
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+/*对于introduce等页面左边导航*/
+.wrapper-left{
+	width: 180px;
+	float: left;
+}
+.wrapper-left::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*对于introduce等页面右边内容区域*/
+.wrapper-right{
+	width: 770px;
+	float: right;
+}
+.wrapper-right::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*除了首页的头部*/
+.nav-header{
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.header{
+	height: 46px;
+	line-height: 46px;
+	background-color: #ffffff;
+}
+/*头部logo*/
+.logo{
+	width: 290px;
+	height: 30px;
+	margin: auto;
+	padding: 8px 0;
+}
+.bg-gray{
+	height: 30px;
+	background-color: #f6f6f6;
+}

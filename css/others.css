@@ -1,0 +1,66 @@
+.wrapper-content{
+	margin-top: 76px;
+	overflow: hidden;
+}
+/*left-menu被包裹在wrapper-left中，宽度为180px*/
+.wrapper .wrapper-left .left-menu{
+	width: 165px;
+	height: 26px;
+	line-height: 26px;
+	padding-left:15px;
+	border-top: 2px solid #ebebeb;
+}
+.wrapper .wrapper-left .nav-menu{
+	height: 30px;
+	line-height: 30px;
+	border: none;
+}
+.wrapper .wrapper-left .nav-menu span,
+.wrapper .wrapper-left .nav-menu em{
+	color: #999999;
+}
+.wrapper .wrapper-left .left-menu span{
+	font-size: 12pt;
+	letter-spacing: 2px;
+	vertical-align: 1pt;
+}
+.wrapper .wrapper-left .left-menu em{
+	font-size: 8pt;
+	text-transform: capitalize;/*首字母大写*/
+	vertical-align: 0pt;
+}
+.wrapper .wrapper-left ul li.left-menu:last-child{
+	border-bottom: 2px solid #ebebeb;
+}
+.wrapper .wrapper-left .left-menu.active{
+	background-color: #333333;
+	border-radius: 3px;
+	border: none;
+}
+.wrapper .wrapper-left .left-menu.active span,
+.wrapper .wrapper-left .left-menu.active em{
+	color: white;
+}
+.wrapper .wrapper-left .left-menu.active+li{
+	border: none;
+}
+.wrapper .wrapper-right p.left-title{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.wrapper .wrapper-right .left-title span{
+	font-size: 15pt;
+}
+.wrapper .wrapper-right .left-title em{
+	font-size: 8pt;
+	margin-left: 8px;
+}
+.wrapper .wrapper-right .img{
+	width: 770px;
+	height: 434px;
+	margin-bottom: 20px;
+}
+.wrapper .wrapper-right p{
+	font-size: 10pt;
+	margin-bottom: 7px;
+}
