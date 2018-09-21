@@ -9,6 +9,10 @@
 	line-height: 26px;
 	padding-left:15px;
 	border-top: 2px solid #ebebeb;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 .wrapper .wrapper-left .nav-menu{
 	height: 30px;
@@ -37,6 +41,14 @@
 	border-radius: 3px;
 	border: none;
 }
+.wrapper .wrapper-left .left-menu:hover a span,
+.wrapper .wrapper-left .left-menu:hover a em{
+	color: #999;
+}
+.wrapper .wrapper-left .left-menu.active:hover a span,
+.wrapper .wrapper-left .left-menu.active:hover a em{
+	color: #FFFFFF;
+}
 .wrapper .wrapper-left .left-menu.active span,
 .wrapper .wrapper-left .left-menu.active em{
 	color: white;
@@ -44,23 +56,67 @@
 .wrapper .wrapper-left .left-menu.active+li{
 	border: none;
 }
-.wrapper .wrapper-right p.left-title{
-	margin-top: 20px;
-	margin-bottom: 10px;
+/*页面右边内容区域*/
+.wrapper .wrapper-right p{
+	text-align: center;
+	font-size: 10pt;
+	margin-top: 7px;
+	line-height: 16pt;
 }
-.wrapper .wrapper-right .left-title span{
+.wrapper .wrapper-right p.left{
+	text-align: left;
+}
+.wrapper .wrapper-right p.title{
+	font-size: 14pt;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+.wrapper .wrapper-right p.left span{
 	font-size: 15pt;
+	letter-spacing: 2px;
+	font-weight: 600;
 }
-.wrapper .wrapper-right .left-title em{
+.wrapper .wrapper-right p.left em{
 	font-size: 8pt;
-	margin-left: 8px;
+	margin-left: 6px;
+	font-weight: 600;
+	text-transform: capitalize;
 }
-.wrapper .wrapper-right .img{
-	width: 770px;
-	height: 434px;
+.wrapper .wrapper-right .margin-top10{
+	margin-top: 10px;
+}
+.wrapper .wrapper-right .margin-top16{
+	margin-top: 16px;
+}
+.wrapper .wrapper-right .margin-top20{
+	margin-top: 20px;
+}
+.wrapper .wrapper-right .margin-top22{
+	margin-top: 22px;
+}
+.wrapper .wrapper-right .margin-top30{
+	margin-top: 30px;
+}
+.wrapper .wrapper-right .margin-bottom18{
+	margin-bottom: 18px;
+}
+.wrapper .wrapper-right .margin-bottom20{
 	margin-bottom: 20px;
 }
-.wrapper .wrapper-right p{
-	font-size: 10pt;
-	margin-bottom: 7px;
+.wrapper .wrapper-right .margin-bottom64{
+	margin-bottom: 64px;
+}
+.wrapper .wrapper-right>.img{
+	width: 770px;
+	height: 434px;
+	background-color: #EBEBEB;
+}
+.wrapper .wrapper-right .wrapper-right-content .img{
+	width: 508px;
+	height: 286px;
+	background-color: #EBEBEB;
+}
+.wrapper .wrapper-right hr{
+	border: 2px solid #EBEBEB;
 }
